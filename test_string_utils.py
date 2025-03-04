@@ -2,14 +2,7 @@ class StringUtils:
     """
     Класс с полезными утилитами для обработки и анализа строк
     """
-   @pytest.mark.parametrize("input_string, expected_output",[
-       ("skypro", "Skypro"),
-       ("hello world", "Hello World"),
-       ("321", "321"),
-       ("", ""),
-       (" ", " "),
-       ("123тест", "123тест")
-   ])
+
     def capitalize(self, string: str) -> str:
         """
         Принимает на вход текст, делает первую букву заглавной
